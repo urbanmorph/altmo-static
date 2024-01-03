@@ -55,3 +55,36 @@ footer.footer {
   right: 16px;
   font-size: 10px;
 }
+
+header.masthead1 {
+  position: relative;
+  background-color: #343a40;
+  background: url("../images/bg-masthead.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+header.masthead1 .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+header.masthead1 h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead1 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead1 h1 {
+    font-size: 3rem;
+  }
+}
