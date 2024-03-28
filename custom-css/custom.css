@@ -88,3 +88,31 @@ header.masthead1 h1 {
     font-size: 3rem;
   }
 }
+
+.bg-arrow-1 {
+  position: relative;
+  background-color: #343a40;
+  background: url("../images/arrow-1.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.bg-arrow-3 {
+  position: relative;
+  background-color: #343a40;
+  background: url("../images/arrows-3.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.bg-pic .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
